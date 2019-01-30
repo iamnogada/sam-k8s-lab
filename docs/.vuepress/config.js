@@ -1,3 +1,4 @@
+// javascript
 module.exports = {
     title: 'ZCP Guide',
     description: 'Documentation of CI/CD, Logging, Monitoring',
