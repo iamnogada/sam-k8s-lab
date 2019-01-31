@@ -1,7 +1,7 @@
 // javascript
 module.exports = {
     title: 'ZCP Guide',
-    description: 'Documentation of CI/CD, Logging, Monitoring',
+    description: 'ZCP Documentation of CI/CD, Logging, Monitoring',
     base: '/sam-k8s-lab/',
     searchMaxSuggestions: 10,
     port: 5000,
