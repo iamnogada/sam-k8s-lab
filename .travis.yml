@@ -1,9 +1,9 @@
 language: node_js
 node_js:
   - "8"
-before_install:
-  - npm install
-install : npm run docs:build
-
+install:
+  - npm install yarn
 script:
- - ls ./docs/.vuepress/dist
+ - yarn docs:build
+after_success:
+  - bash ./run.sh
