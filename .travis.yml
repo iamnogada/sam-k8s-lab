@@ -6,5 +6,11 @@ install:
   - yarn install
 script:
  - yarn docs:build
-after_success:
-  - bash ./run.sh
+
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GIT_TOKEN
+  local_dir: docs/.vuepress/dist
+  on:
+    branch: gh-pages
