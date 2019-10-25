@@ -3,6 +3,7 @@ logging:
 data:
   path: classpath:data.json
 
+
 #Metrics related configurations
 management:
   server:
